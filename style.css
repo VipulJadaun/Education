@@ -31,6 +31,7 @@ body {
     justify-content: space-between;
     padding: 38px 120px;
     font-family: "gilroy";
+    cursor: pointer;
 }
 
 #n1 h1 {
@@ -121,10 +122,10 @@ button {
 #left #btmsearch {
     position: relative;
     width: 2vw;
-    height: 12vh;   
+    height: 12vh;
     /* background-color: aqua; */
     /* position: absolute; */
-    
+
     top: 200px;
     left: 160px;
     display: flex;
@@ -191,9 +192,9 @@ input {
     justify-content: space-around;
     gap: 20px;
     padding: 30px 35px 50px 15px;
-    
-   
-   
+
+
+
 
 }
 
@@ -205,8 +206,9 @@ input {
     border-radius: 40px;
     transition: all 0.5s ease-in-out;
     /* min-width: 45vw; */
-    
-    
+    cursor: pointer;
+
+
 }
 
 #cards .card img {
@@ -215,7 +217,7 @@ input {
     object-fit: cover;
     border-radius: 40px;
     position: relative;
-   
+
 
 
 }
@@ -223,23 +225,23 @@ input {
 
 .page2 {
     background-color: #F8F4F1;
-    
 
 
-    
+
+
 }
 
 #toptxt #txth {
     display: flex;
     justify-content: center;
-    font-family:"gilroy";
+    font-family: "gilroy";
 }
 
 #txth h1 {
     position: relative;
     top: 45px;
     font-size: 3vw;
-    
+
 }
 
 #toptxt #txtp {
@@ -257,45 +259,51 @@ input {
     opacity: .7;
 }
 
-#p2img{
+#p2img {
     width: 85vw;
     height: 60vh;
     /* background-color: aqua; */
     position: relative;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     display: flex;
     justify-content: space-between;
-  
+
 }
-#p2img .card1{
+
+#p2img .card1 {
     /* position: relative; */
     background-color: black;
     width: 300px;
     height: 300px;
     border-radius: 31px;
+    cursor: pointer;
 }
-#p2img .card1:nth-child(2){
+
+#p2img .card1:nth-child(2) {
     /* position: relative; */
     background-color: black;
     width: 300px;
     height: 350px;
 }
-#p2img .card1:nth-child(3){
+
+#p2img .card1:nth-child(3) {
     /* position: relative; */
     background-color: black;
     width: 300px;
     height: 445px;
 
 }
-#p2img .card1 img{
+
+#p2img .card1 img {
     width: 100%;
     height: 100%;
     border-radius: 30px;
     object-fit: cover;
 }
-.card1 h1{
+
+.card1 h1 {
     position: relative;
     margin-top: 16px;
     font-family: "gilroy";
@@ -304,7 +312,8 @@ input {
     letter-spacing: 1px;
     opacity: .8;
 }
-.card1 p{
+
+.card1 p {
     position: relative;
     margin: 7px;
     font-size: 1vw;
@@ -313,12 +322,13 @@ input {
     opacity: .8;
 
 }
+
 .page3 {
     background-color: #F8F4F1;
 
 }
 
-.page3 #txt{
+.page3 #txt {
     width: 90vw;
     /* background-color: aqua; */
     display: flex;
@@ -329,43 +339,49 @@ input {
     /* min-width: 50vw; */
 
 }
-#txt #ltxt{
+
+#txt #ltxt {
     width: 40vw;
     /* background-color: #fff; */
     /* min-width: 60vw; */
 }
-#txt #ltxt h1{
+
+#txt #ltxt h1 {
     font-size: 2.7vw;
     font-weight: 600;
     line-height: 1.1;
     letter-spacing: 1px;
 }
-#txt #rtxt{
+
+#txt #rtxt {
     width: 40vw;
-   
+
 
 }
-#txt #rtxt p{
+
+#txt #rtxt p {
     font-size: 1.3vw;
     line-height: 1.3;
     letter-spacing: 1px;
     font-weight: 500;
     opacity: .7;
 
-    
+
 }
-.page3 #center{
+
+.page3 #center {
     position: relative;
     width: 80vw;
     height: 65vh;
     left: 50%;
     top: 45%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     /* background-color: chocolate; */
     display: flex;
-    
+
 }
-#center #l{
+
+#center #l {
     width: 30%;
     /* background-color: aqua; */
     display: flex;
@@ -374,10 +390,11 @@ input {
     align-items: center;
     font-family: "gilroy";
     justify-content: space-evenly;
-    
-    
+
+
 }
-#l .one img{
+
+#l .one img {
     position: relative;
     width: 4vw;
     /* height: 55px; */
@@ -385,36 +402,311 @@ input {
     right: 5vw;
     top: 4.5vw;
     border-radius: 50vw;
-  
- 
+
+
     padding: 1.2vw;
 
 }
-#l .one h2{
+
+#l .one h2 {
     font-size: 1.5vw;
     font-weight: 600;
     margin-bottom: 12px;
 }
-#l .one p{
+
+#l .one p {
     font-size: 1.1vw;
     opacity: .7;
     font-weight: 500;
 }
-#center #r{
-    width: 70%;
+
+#center #r {
+    width: 75%;
+    height: 100%;
+    position: relative;
+    /* left: 0%; */
+    top: 7%;
     /* background-color: #61ff12; */
 }
-.page4 {
-    background-color: rgb(43, 54, 54);
+
+#r #vtxt {
+    position: absolute;
+    width: 34vw;
+    height: 15vh;
+    top: -7vh;
+    left: 42vh;
+    background-color: #97C680;
+    display: flex;
+    font-family: "gilroy";
+    text-transform: uppercase;
+
 
 }
 
+#vtxt .lt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    border-right: 1px solid black;
+
+
+    /* background-color: aqua; */
+
+}
+
+#vtxt .rt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(34, 95, 95); */
+}
+
+#vtxt h1 {
+    font-size: 7vh;
+    font-weight: 500;
+}
+
+#vtxt p {
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+#r #vimeo-player {
+    width: 110%;
+    height: 100%;
+    border-radius: 80px;
+}
+
+
+.page4 {
+    background-color: #F8F4F1;
+    position: relative;
+    width: 100vw;
+    height: 87vh;
+
+}
+
+.page4 h1 {
+    font-family: "gilroy";
+    position: relative;
+    position: absolute;
+    left: 34vw;
+    top: 9vw;
+    font-size: 3vw;
+    font-weight: 600;
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    top: 15vw;
+
+    position: absolute;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.swiper-slide p {
+    font-family: gilroy;
+    padding: 20px;
+    text-align: left;
+    font-size: 16px;
+    position: relative;
+    top: -1.5vw;
+}
+
+
+
+.swiper-slide #imgcard {
+    display: flex;
+
+}
+
+.swiper-slide #imgcard img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    position: relative;
+    left: -8vw;
+}
+
+.swiper-slide #imgcard #txt {
+    position: relative;
+    left: -7vw;
+    top: 1vw;
+    text-align: left;
+}
+.swiper-slide #imgcard #txt p{
+    position: relative;
+    margin-top: 1vw;
+    left: -1vw;
+    font-size: 16px;
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+
+.append-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.append-buttons button {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #007aff;
+    color: #007aff;
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin: 0 10px;
+    font-size: 13px;
+}
+#main #footer{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    background-color:#F8F4F1;
+    font-family: gilroy;
+    /* position: relative; */
+    margin-top: -8vw;
+ 
+}
+#footer .left{
+    width: calc(100%/3);
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    
+  
+}
+#footer .center{
+    width: calc(100%/3);
+    /* background-color: rgb(51, 152, 152); */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+#footer .center .t1 p{
+    font-size: 18px;
+    top: 8px;
+    opacity: .8;
+    position: relative;
+    /* position: absolute; */
+    margin-top: 24px;
+}
+#footer .right{
+    width: calc(100%/3);
+    /* background-color: rgb(229, 255, 0); */
+    height: 100%;
+    position: relative;
+    color: #3f3535;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#footer .right h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.right #btmsearch {
+    position: relative;
+    width: 0vw;
+    height: 9vh;
+    /* background-color: aqua; */
+    /* position: absolute; */
+position: absolute;
+    top: 220px;
+    left: 140px;
+    display: flex;
+    z-index: 99999;
+    /* min-width: 80px; */
+    /* min-height: 80px; */
+}
+
+#btmsearch #bleft {
+    display: flex;
+    justify-content: center;
+
+}
+
+input {
+    width: 220px;
+    position: relative;
+    font-size: 1vw;
+    background-color: #fff;
+    border: none;
+    outline: none;
+}
+
+:placeholder-shown {
+    position: relative;
+    padding: 0px 50px;
+    color: black;
+    outline: none;
+}
+
+#btmsearch #bright {
+    position: relative;
+    width: 11vh;
+    /* height: 120px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #97C680;
+    font-family: "gilroy";
+    cursor: pointer;
+}
+
+#bright h2 {
+    font-size: 2vw;
+    font-weight: 600;
+    position: relative;
+    padding: 1vw;
+}
 
 @media only screen and (min-width:300px) and (max-width:768px) {
 
-    body{
+    body {
         overflow-x: hidden;
     }
+
     #n1 h1 {
         position: relative;
         right: 70px;
@@ -466,13 +758,14 @@ input {
     }
 
     #btmsearch #bright {
-        
+
         width: 13vw;
         height: 9vh;
         margin-right: 93px;
 
     }
-    #btmsearch #bright h2{
+
+    #btmsearch #bright h2 {
         position: relative;
         font-size: 25px;
     }
@@ -484,107 +777,120 @@ input {
         left: 64px;
 
     }
-    
-    #cards .card{
+
+    #cards .card {
         display: flex;
         /* width: 10vw; */
         margin: 0px 0px 0px 65px;
         /* gap: 50px; */
     }
-    #cards .card:nth-child(1){
+
+    #cards .card:nth-child(1) {
         position: relative;
         /* margin-left: 200px; */
     }
-    #cards .card:nth-child(2){
+
+    #cards .card:nth-child(2) {
         position: relative;
         margin-left: 5vw;
         /* margin-right: 100px; */
     }
-    #cards .card:nth-child(3){
+
+    #cards .card:nth-child(3) {
         position: relative;
         margin-left: 24vw;
         /* margin-right: 100px; */
     }
+
     #cards .card img {
         display: flex;
-      position: relative;
+        position: relative;
         border-radius: 20px;
         /* max-width: 85vw; */
         width: 37vw;
         height: 52vw;
         /* gap: 20px; */
-        
-      
-    }
-  
 
-    
-    #toptxt{
+
+    }
+
+
+
+    #toptxt {
         position: relative;
         top: -115px;
     }
-    #txth h1{
-        
-        font-size:4.5vw;
+
+    #txth h1 {
+
+        font-size: 4.5vw;
     }
-    #txtp p{
+
+    #txtp p {
         /* position: relative; */
         font-size: 2.9vw;
-        
+
 
     }
-    .page2{
+
+    .page2 {
         width: 100vw;
         height: 220vh;
     }
-    .page2 #p2img{
+
+    .page2 #p2img {
         display: flex;
         flex-direction: column;
         top: 200px;
-        
+
         align-items: center;
 
 
     }
-    .page2 #p2img .card1{
+
+    .page2 #p2img .card1 {
         position: relative;
         top: -43px;
         margin: 40px;
         height: 31vh;
         width: 72vw;
     }
-    .card1 h1{
+
+    .card1 h1 {
         position: relative;
         margin-top: .55px;
         font-size: 5vw;
     }
-    .card1 p{
+
+    .card1 p {
         font-size: 3vw;
     }
-    .page3 #txt{
+
+    .page3 #txt {
         display: flex;
         flex-direction: column;
         top: -38%;
         left: 12vw;
-    
+
 
     }
-   
-    #txt #ltxt h1{
+
+    #txt #ltxt h1 {
         position: relative;
         font-size: 8vw;
         width: 75vw;
         /* background-color: #97C680; */
     }
-    #txt #rtxt p{
+
+    #txt #rtxt p {
         width: 90vw;
-       
+
         position: relative;
         font-size: 3.5vw;
         /* background-color: #97C680; */
         margin-top: 22px;
-      
+
 
     }
-    
+
 }
